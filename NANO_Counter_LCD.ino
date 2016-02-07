@@ -29,7 +29,7 @@ void setup()
   analogWrite(10, 5); // PWM - яркость LCD
   stan = HIGH;
 
-
+  /* Valera DELETE me */
   /* Инициализируем дисплей: 2 строки по 16 символов */
   lcd.begin(16, 2);
   // Выводим на дисплей фразу приветствия
